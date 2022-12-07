@@ -1,5 +1,6 @@
  <h3>スケジュール新規作成</h3>
- 
+  <%= render "shared/error", obj: @post %>  
+   
   <%= form_with(model: @post, local: true) do |f| %>
    <table>
      <tr>
@@ -19,7 +20,7 @@
      
      <tr>
        <th><%= f.label :all_day ,"終日" %></th>
-       <td><%= f.check_box :all_day %></td>
+       <td><%= f.check_box :all_day %>終日の場合はチェックを入れます</td>
      </tr>
  
      <tr>

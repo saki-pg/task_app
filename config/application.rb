@@ -15,8 +15,9 @@ module TaskApp
      # Application configuration can go into files in config/initializers
      # -- all .rb files in that directory are automatically loaded after loading
      # the framework and any gems in your application.
-     config.action_controller.permit_all_parameters = true
-    config.time_zone = 'Tokyo'
+    config.action_controller.permit_all_parameters = true
     config.i18n.default_locale = :ja
+    config.time_zone = 'Tokyo'
+   
   end
 end
