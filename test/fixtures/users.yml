@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ID: 1
+  タイトル: MyString
+  開始日: 2022-12-01
+  終了日: 2022-12-01
+  終日: false
+  スケジュール更新日時: 2022-12-01 13:42:03
+
+two:
+  ID: 1
+  タイトル: MyString
+  開始日: 2022-12-01
+  終了日: 2022-12-01
+  終日: false
+  スケジュール更新日時: 2022-12-01 13:42:03
